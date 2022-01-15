@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* Base Styles */
 *{
@@ -137,13 +137,55 @@ main{
       width: 80%;
       margin: 30px auto;
   }
+  #popular-products{
+      
+  }
   #popular-products .section_title{
       text-align: center;
       margin: 20px auto;
   }
+  #popular-products ..container{
+    margin:20px auto;
+    padding:30px;
+    border-radius:5px;
+    animation: fadeSlide 2s ease 0s 1;
+}
 
   .products{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:15px;
   }
+  .singel-product{
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    
+    border-radius:20px;
+  }
+  .singel-product:hover{
+    box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 13%);
+    cursor:pointer;
+  }
+  .product-img{
+      width: 100%;
+  }
+  .product_title{
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .price{
+      font-size: 24px;
+  }
+  .product_rating{
+    color:#FFC014;
+    margin:-2px;
+  }
+
+  .product_rating span{
+    margin-left:5px;
+    color: #5E6366;
+}
+.details p{
+    text-align: justify;
+    margin-top: 10px;
+}
