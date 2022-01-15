@@ -15,10 +15,7 @@ main{
     margin: 0 auto;
     background-color: #FFFFFF;;
 }
-header{
-    /* 
-    margin: 0 auto; */
-}
+
 .container{
     display:flex;
     margin:0 15px;
@@ -117,8 +114,6 @@ header{
     color: #E02C6D;
 } 
 
-}
-
 .img-rotate {
     overflow: hidden;
     margin: 8px;
@@ -146,10 +141,7 @@ header{
       text-align: center;
       margin: 20px auto;
   }
-  .container{
-      /* display: grid;
-      grid-template-columns: repeat(3, 1fr); */
-  }
+
   .products{
     display:grid;
     grid-template-columns: repeat(3,1fr);
