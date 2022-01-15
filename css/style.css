@@ -10,16 +10,16 @@
 body{
     background-color: #e2e1eb;
 }
-/* main{
-    max-width: 870px;
+main{
+    width: 1080px;
     margin:0 auto;
     padding:0 20px;
     background-color: #fff7f7;;
-} */
+}
 
 .container{
-    width: 1200px;
     display:flex;
+    
     justify-content: space-around;
     padding:0 20px;
     
